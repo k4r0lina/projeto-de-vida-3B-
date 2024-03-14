@@ -71,7 +71,7 @@ body {
 }
 
 .botao.ativo {
-    background-color: var(--meu-fundo);
+    background-color: var(--botao-inativo);
     color: #000000;
 }
 
