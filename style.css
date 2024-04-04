@@ -1,12 +1,18 @@
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 :root {
     --cor-de-fundo: #f5f5f5;
     --preto: #000000;
     --branco: #FFFFFF;
-    --botao-ativo: #A020F0;
-    --botao-inativo: #FF00FF;
-    --texto-fundo: #87CEFA;
+    --botao-ativo: #4B0082;
+    --botao-inativo: #836FFF;
+    --texto-fundo: #FFC0CB;
     --cor-borda: #000000;
-    --meu-fundo:	#D8BFD8;
+    --meu-fundo: #D8BFD8;
 }
 
 .conteudo-principal {
@@ -24,11 +30,15 @@
     width: 100%;
     font-size: 32px;
     color: var(--preto);
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 .botao {
     background-color: var(--botao-inativo);
-    color: var(--branco);
+    color: var(--preto);
     display: flex;
     justify-content: center;
     padding: 1em;
@@ -51,7 +61,7 @@
 }
 
 .botao:last-child {
-    border-radius: 40px  0 0 0;
+    border-radius: 0 40px 0 0;
     border-right: 4px solid var(--cor-borda);
 }
 
@@ -66,18 +76,18 @@
     }
 
     .botao:last-child {
-        border-radius: 40px  0 0 0;
+        border-radius: 40px 0 0 0 0;
         border-right: 4px solid var(--cor-borda);
     }
 }
 
 body {
-    background-color: var(--meu-fundo);
+    background-color: var(--meu-fundo)
 }
 
 .botao.ativo {
     background-color: var(--botao-ativo);
-    color: #000000;
+    color: var(--branco);
 }
 
 .abas-textos {
